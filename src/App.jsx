@@ -317,7 +317,7 @@ export default function WorkoutApp() {
               "Add face pulls & band pull-aparts daily — counteracts forward head posture",
               "Every 45 min of coding: stand, stretch chest & hip flexors for 2 min",
               "Sleep 7–8 hrs — muscle is built during recovery, not during training",
-              "Aim for 2.0–2.2g protein per kg bodyweight (~138–152g/day for you)",
+              "Aim for 2.0–2.2g protein per kg bodyweight (~138–152g/day for you) and add creatine for additioal",
             ].map((tip, i) => (
               <div key={i} style={{ fontSize: 13, color: "#aaa", padding: "5px 0", borderBottom: i < 3 ? "1px solid #222" : "none" }}>
                 {tip}
