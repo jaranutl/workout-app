@@ -71,8 +71,11 @@ const days = [
   },
 ];
 
+const height =182;
+const weight = 69;
+
 const cardio = [
-  { type: "Zone 2 Cardio", desc: "30–40 min incline treadmill walk or cycling at conversational pace", freq: "2× / week", icon: "🚶", tag: "Fat loss + heart health" },
+  { type: "Zone 2 Cardio", desc: "30–40 min incline treadmill walk or cycling at conversational pace speed 4-5 km/hr and 10-15 steep", freq: "2× / week", icon: "🚶", tag: "Fat loss + heart health" },
   { type: "HIIT Sprints", desc: "15–20 min: 30 sec sprint / 90 sec walk, 6–8 rounds", freq: "1× / week", icon: "⚡", tag: "Metabolic boost" },
   { type: "Active Recovery", desc: "20 min light walk, stretching, or yoga on rest days", freq: "Optional", icon: "🧘", tag: "Mobility & recovery" },
 ];
@@ -144,8 +147,8 @@ export default function WorkoutApp() {
             padding: "10px 14px",
             textAlign: "center",
           }}>
-            <div style={{ fontSize: 20, fontWeight: 800 }}>182cm</div>
-            <div style={{ fontSize: 12, color: "#888" }}>69 kg</div>
+            <div style={{ fontSize: 20, fontWeight: 800 }}>{height}cm</div>
+            <div style={{ fontSize: 12, color: "#888" }}>{weight} kg</div>
           </div>
         </div>
         <div style={{ display: "flex", gap: 8, marginTop: 16 }}>
