@@ -127,7 +127,7 @@ export default function WorkoutApp() {
     }}>
       {/* Header */}
       <div style={{
-        padding: "32px 24px 20px",
+        padding: "32px 18px 20px",
         borderBottom: "1px solid #1e1e1e",
       }}>
         <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between" }}>
@@ -135,8 +135,8 @@ export default function WorkoutApp() {
             <div style={{ fontSize: 11, letterSpacing: 3, color: "#666", textTransform: "uppercase", marginBottom: 6 }}>
               Intermediate · Bulk
             </div>
-            <h1 style={{ fontSize: 28, fontWeight: 800, margin: 0, lineHeight: 1.1 }}>
-              4-Day Push Pull<br />
+            <h1 style={{ color:"white", fontSize: 28, fontWeight: 800, margin: 0, lineHeight: 1.1 }}>
+              4-Days Push Pull<br />
               <span style={{ color: "#e8453c" }}>Legs Upper</span>
             </h1>
           </div>
@@ -173,7 +173,7 @@ export default function WorkoutApp() {
       {tab === "program" && (
         <div style={{ padding: "20px 24px" }}>
           {/* Day Selector */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 10, marginBottom: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 35, marginBottom: 24 }}>
             {days.map((d, i) => {
               const prog = dayProgress(i);
               return (
